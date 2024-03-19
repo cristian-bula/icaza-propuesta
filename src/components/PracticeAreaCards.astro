@@ -1,0 +1,14 @@
+---
+interface Props {
+  text: string;
+  customClass?: string;
+}
+
+const { text, customClass } = Astro.props;
+---
+
+<div
+  class=`bg-background py-2 px-3 border-1 w-32 text-center ${customClass} flex items-center justify-center cursor-pointer hover:bg-[#666666]`
+>
+  <p class="text-white text-xxs uppercase">{text}</p>
+</div>
