@@ -73,7 +73,7 @@ const Awards = () => {
         >
           {AwardsData.map((item, index) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={index}>
                 <AwardsCards img={item.img} text={item.text} link={item.link} />
               </SwiperSlide>
             );

@@ -8,7 +8,7 @@ const NavbarMenu = () => {
       <img
       className="w-32 ml-4 md:ml-0"
       src="https://icazalaw.com/wp-content/uploads/2019/08/logo_wt-300x135.png"
-      alt="Icaza image"
+      alt="Icaza logo png"
     />
       </NavbarBrand>
       <NavbarContent className='relative' justify="end">

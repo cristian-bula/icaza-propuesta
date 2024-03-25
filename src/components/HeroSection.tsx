@@ -24,7 +24,7 @@ const HeroSection = () => {
     transition: { duration: 0.5 },
   };
 
-  const HeroParts: any = {
+  const HeroParts: { [key: number]: React.ReactElement } = {
     1: (
       <div
         style={{
@@ -41,7 +41,7 @@ const HeroSection = () => {
           onClick={handleClick}
           className="absolute mx-auto my-auto cursor-pointer z-0"
           src={IgraBuilding.src}
-          alt="Imagen 1"
+          alt="IgraBuilding 1"
           width="500"
           height="200"
         />
@@ -83,15 +83,15 @@ const HeroSection = () => {
             className=" w-10 absolute bottom-20 md:bottom-4 animate-bounce left-0 right-0 my-auto mx-auto"
             data-slot="icon"
             fill="none"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="m4.5 15.75 7.5-7.5 7.5 7.5"
             ></path>
           </svg>
@@ -117,7 +117,7 @@ const HeroSection = () => {
           onClick={handleClick}
           className="absolute mx-auto my-auto cursor-pointer z-0"
           src={Manos.src}
-          alt="Imagen 1"
+          alt="Manos 1"
           width="500"
           height="200"
         />
@@ -160,15 +160,15 @@ const HeroSection = () => {
             className=" w-10 absolute bottom-20 md:bottom-4 animate-bounce left-0 right-0 my-auto mx-auto"
             data-slot="icon"
             fill="none"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="m4.5 15.75 7.5-7.5 7.5 7.5"
             ></path>
           </svg>
@@ -194,7 +194,7 @@ const HeroSection = () => {
           onClick={handleClick}
           className="absolute mx-auto my-auto cursor-pointer z-0 w-80 md:w-96 bottom-20 md:bottom-auto ml-0 md:ml-32"
           src={IgraLogo1.src}
-          alt="Imagen 1"
+          alt="IgraLogo1 1"
           width="400"
           height="200"
         />
@@ -240,15 +240,15 @@ const HeroSection = () => {
             className=" w-10 absolute bottom-20 md:bottom-4 animate-bounce left-0 right-0 my-auto mx-auto"
             data-slot="icon"
             fill="none"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
             aria-hidden="true"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="m4.5 15.75 7.5-7.5 7.5 7.5"
             ></path>
           </svg>
