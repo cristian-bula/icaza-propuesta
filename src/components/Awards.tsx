@@ -52,7 +52,6 @@ const Awards = () => {
       <h3 className="text-secundary font-bold text-2xl mt-3">
         Premios & Reconocimientos
       </h3>
-      <>
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
@@ -84,7 +83,6 @@ const Awards = () => {
             );
           })}
         </Swiper>
-      </>
     </div>
   );
 };

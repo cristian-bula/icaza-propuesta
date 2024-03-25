@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import { motion } from "framer-motion";
 import IgraBuilding from "@assets/imgs/IgraBuilding.webp";
 import Manos from "@assets/imgs/Manos.webp";
@@ -8,13 +8,13 @@ import { Button } from "@nextui-org/button";
 const HeroSection = () => {
   const [part, setPart] = useState<number>(1);
 
-  const handleClick = () => {
+  const handleClick = useCallback(() => {
     if (part < 3) {
       setPart(part + 1);
     } else {
       setPart(1);
     }
-  };
+  }, [part]);
   const cardStyle =
     "flex w-full h-[600px] text-white items-center justify-center layout-padding ";
   const animationProps = {
